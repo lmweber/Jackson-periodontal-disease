@@ -1,6 +1,6 @@
-# Code and data for Jackson *et al.* (2015) study on equine periodontal disease
+## Code and data for Jackson *et al.* (2015) study on equine periodontal disease
 
-This repository contains R code and data to reproduce the statistical analysis in Jackson *et al.* (2015).
+This repository contains R code and data to reproduce the statistical analysis in the Jackson *et al.* (2015) paper, which investigated the effectiveness of different treatment methods for equine cheek teeth periodontal disease.
 
 
 ### Contents
