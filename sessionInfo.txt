@@ -1,0 +1,14 @@
+R version 3.1.2 (2014-10-31)
+Platform: x86_64-apple-darwin13.4.0 (64-bit)
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] splines   stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] multcomp_1.3-8  TH.data_1.0-6   survival_2.37-7 mvtnorm_1.0-2   nlme_3.1-119   
+
+loaded via a namespace (and not attached):
+[1] grid_3.1.2      lattice_0.20-29 sandwich_2.3-2  tools_3.1.2     zoo_1.7-11     
