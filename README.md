@@ -24,6 +24,6 @@ The paper has been accepted for publication in the Journal of Veterinary Dentist
 
 ## Supplementary information on statistical analysis
 
-A Supplementary Information document with additional details on the statistical analysis is available from the [PeerJ Preprints](https://peerj.com/manuscripts/9088/) page, and will be published with the online verison of the paper.
+A Supplementary Information document with additional details on the statistical analysis is available from the [PeerJ Preprints](https://peerj.com/manuscripts/9088/) page, and will be published with the online version of the paper.
 
 
