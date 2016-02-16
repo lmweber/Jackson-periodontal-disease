@@ -17,13 +17,13 @@ Information about the R session used to evaluate the results, including the R in
 
 ## Preprint
 
-A preprint (final author draft) of the paper is available from [PeerJ Preprints](https://peerj.com/manuscripts/9088/).
+A preprint (final author draft) of the paper is available from [PeerJ Preprints](https://peerj.com/preprints/703/).
 
 The paper has been accepted for publication in the Journal of Veterinary Dentistry, and will appear in a forthcoming issue.
 
 
 ## Supplementary information on statistical analysis
 
-A Supplementary Information document with additional details on the statistical analysis is available from the [PeerJ Preprints](https://peerj.com/manuscripts/9088/) page, and will be published with the online version of the paper.
+A Supplementary Information document with additional details on the statistical analysis is available from the [PeerJ Preprints](https://peerj.com/preprints/703/) page, and will be published with the online version of the paper.
 
 
