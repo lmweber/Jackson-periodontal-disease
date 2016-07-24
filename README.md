@@ -15,3 +15,7 @@ The spreadsheet [Jackson_periodontal_disease.csv](Jackson_periodontal_disease.cs
 Information about the R session used to evaluate the results, including the R installation and package version numbers, is saved in the file [sessionInfo.txt](sessionInfo.txt).
 
 
+## Supplementary information on statistical analysis
+
+A Supplementary Information document with additional details on the statistical analysis will be published with the online version of the paper.
+

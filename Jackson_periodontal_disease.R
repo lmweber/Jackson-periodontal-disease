@@ -4,14 +4,14 @@
 ##
 ## Statistical analysis
 ##
-## Lukas M. Weber, March 2015
+## Lukas M. Weber, updated July 2016
 ## ===========================================================================
 
 
 ## Prepare data ----------
 
 # load data file
-data <- read.csv("Jackson2015_periodontal_disease.csv")
+data <- read.csv("Jackson_periodontal_disease.csv")
 str(data)
 
 # convert columns to factors
@@ -93,6 +93,22 @@ plot(improvement ~ treatment, data=data,
      main="Improvement by treatment method")
 dev.off()
 
+# updated box plots (with original data points)
+library(ggplot2)
+set.seed(123)
+ggplot(data, aes(x = treatment, y = improvement)) + 
+  geom_boxplot(width = 0.65, outlier.size = 0.25) + 
+  geom_jitter(width = 0.4, alpha = 0.3, height = 0) + 
+  scale_y_continuous("improvement in pocket depth (mm)", 
+                     limits = c(-6, 27), breaks = seq(-5, 25, by = 5)) + 
+  xlab("treatment method") + 
+  ggtitle("Improvement by treatment method") + 
+  theme_bw()
+set.seed(123)
+ggsave("plots/improvement_boxplot_updated.pdf", width = 5, height = 5)
+set.seed(123)
+ggsave("plots/improvement_boxplot_updated.png", width = 5, height = 5)
+
 # improvement vs. previous pocket depth  ## don't include in report
 pdf("plots/improvement_vs_previous.pdf",width=6,height=6)
 plot(data$previousdepth, data$improvement, type="n", 
@@ -135,7 +151,7 @@ dev.off()
 
 ## Model fitting: Linear mixed model with random intercepts for horse/repeat ----------
 
-library("nlme")
+library(nlme)
 
 # linear mixed model: check possible confounding variables
 
@@ -201,7 +217,7 @@ intervals(fm7)
 
 # pairwise comparisons: which of the treatment groups differ? (given that some 
 # differences exist, since entire treatment term is significant)
-library("multcomp")
+library(multcomp)
 summary(glht(fm7, linfct=mcp(treatment="Tukey")))
   # Tukey's method for all pairwise comparisons (takes into account multiple testing)
   # results: DW is significantly lower than each of CL, M, and PVS
@@ -233,7 +249,7 @@ summary(fm_lm)
 AIC(fm_lm)
 
 # GLHT: which treatment groups differ? (given that some differences exist)
-library("multcomp")
+library(multcomp)
 summary(glht(fm_aov, linfct=mcp(treatment="Tukey")))
   # Tukey's method for all pairwise comparisons (takes into account multiple testing)
   # results: with p-values adjusted for multiple testing, no individually 
