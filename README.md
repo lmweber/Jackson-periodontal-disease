@@ -3,7 +3,9 @@ Code and data for Jackson et al. paper on equine periodontal disease
 
 This repository contains R code and data to reproduce the statistical analysis in our paper:
 
-- Jackson K., Weber L. M., and Tennant M., *Retrospective study of the effectiveness of four different treatments of equine cheek teeth periodontal disease*, Journal of Veterinary Dentistry, forthcoming.
+- Jackson K., Weber L. M., and Tennant M. (2016), *A Retrospective Study of the Effectiveness of Four Different Treatments of Periodontal Disease in Equine Cheek Teeth*, Journal of Veterinary Dentistry, 33(2), 83--89.
+
+The paper can be accessed at: http://jov.sagepub.com/content/33/2/83.abstract
 
 
 ## Contents
@@ -17,5 +19,5 @@ Information about the R session used to evaluate the results, including the R in
 
 ## Supplementary information on statistical analysis
 
-A Supplementary Information document with additional details on the statistical analysis will be published with the online version of the paper.
+A Supplementary Information document with additional details on the statistical analysis is available with the online version of the paper.
 
